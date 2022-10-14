@@ -44,3 +44,15 @@ Existing Environment
 ```
 sudo apt install python3-venv
 ```
+
+## Deplyoing our function
+
+FIrst, we have to set our project ID with the following command
+
+```
+gcloud config set project [YOUR_PROJECT_ID]
+```
+
+Then we deploy our function with this command:
+
+gcloud functions deploy [FUNCTION_NAME] --runtime python37 --trigger-http
