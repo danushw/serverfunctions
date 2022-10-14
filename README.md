@@ -22,9 +22,25 @@ Taken from this [Link](https://packaging.python.org/en/latest/guides/installing-
 py -m pip install --user virtualenv
 ```
 
+To activate the Virtual Environment we do:
+
+```
+.\env\Scripts\activate
+```
+
+for fixing a problem-
+
+```
+pip install wheel
+```
+
+in PyCharm-
+File > Settings > Project > Python Interperter -
+Add Interperter -
+Existing Environment
+
 ## Linux
 
 ```
 sudo apt install python3-venv
-
 ```
